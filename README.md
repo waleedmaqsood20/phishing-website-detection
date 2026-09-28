@@ -93,6 +93,9 @@ linear decision boundary (Logistic Regression) captures less effectively.
 These results are specific to this dataset, this train-test split, and this
 set of (non-tuned) model configurations.
 
+![ROC curve comparison across all four models](figures/roc_comparison.png)
+![Confusion matrices for all four models](figures/confusion_matrix_grid.png)
+
 ## Explainability
 
 Feature importance was examined through three complementary lenses —
