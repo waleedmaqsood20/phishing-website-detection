@@ -1,0 +1,30 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw dataset (not redistributed; see data/README.md)
+data/*.csv
+
+# Trained model artifacts (regenerable via src/train_models.py in seconds;
+# not needed to reproduce the reported results, which are captured in
+# results/ and figures/)
+models/
+*.pkl
